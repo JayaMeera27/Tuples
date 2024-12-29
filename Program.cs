@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-class Sample
+class Sample1
 {
     public Tuple<string,int> GetDetails()
     {
@@ -17,7 +17,7 @@ class Program
         Console.WriteLine(person.Item1);
 
 
-        Sample s = new Sample();
+        Sample1 s = new Sample1();
         Tuple<string, int> getperson = s.GetDetails();
         Console.WriteLine(getperson.Item1);
         Console.WriteLine(getperson.Item2);
